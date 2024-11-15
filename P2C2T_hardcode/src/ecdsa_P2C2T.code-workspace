@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"gmp.h": "c",
+			"random": "c",
+			"string.h": "c",
+			"sha.h": "c",
+			"relic.h": "c",
+			"system_error": "c",
+			"util.h": "c",
+			"array": "c",
+			"string": "c",
+			"string_view": "c"
+		}
+	}
+}

@@ -1,0 +1,108 @@
+Connecting to Tumbler...
+
+Received message size: 23 bytes
+Executing registration_z...
+
+Running time of lhtlp_param_gen by tumbler: 7.31922 sec
+Finished executing registration_z.
+
+Received message size: 60911 bytes
+Executing registration_vtd...
+Received message size: 159 bytes
+Finished executing registration_vtd.
+
+Executing registration_tid...
+Finished executing registration_tid.
+
+Received message size: 92 bytes
+Executing registration_done...
+Finished executing registration_done.
+
+Registration time: 19.55559 sec
+Connecting to Bob...
+
+Registration time plus token share: 19.55568 sec
+Received message size: 538 bytes
+Executing token_share...
+Finished executing token_share.
+
+Connecting to Tumbler...
+
+Received message size: 63799 bytes
+Executing promise_init...
+Finished executing promise_init.
+
+Received message size: 6968 bytes
+Executing promise_com...
+Finished executing promise_com.
+
+Received message size: 154 bytes
+Executing promise_zkdl...
+Finished executing promise_zkdl.
+
+Received message size: 2428 bytes
+Executing promise_decom...
+Finished executing promise_decom.
+
+Received message size: 57 bytes
+Executing promise_presig...
+Received message size: 21 bytes
+Finished executing promise_presig.
+
+Executing promise_over...
+Finished executing promise_over.
+
+
+Puzzle promise time: 17.31244 sec
+Connecting to Alice...
+
+Received message size: 4334 bytes
+Executing puzzle_share...
+Finished executing puzzle_share.
+
+Connecting to Tumbler...
+
+Received message size: 26 bytes
+Executing puzzle_share_done...
+Finished executing puzzle_share_done.
+
+
+Puzzle promise and share time: 17.43227 sec
+Received message size: 9718 bytes
+Executing payment_init...
+Finished executing payment_init.
+
+Received message size: 121 bytes
+Executing payment_zkdl...
+Finished executing payment_zkdl.
+
+Received message size: 155 bytes
+Executing payment_decom...
+Finished executing payment_decom.
+
+Received message size: 2293 bytes
+Executing payment_ctx...
+Finished executing payment_ctx.
+
+Received message size: 57 bytes
+Executing payment_presig...
+Finished executing payment_presig.
+
+Received message size: 54 bytes
+Executing payment_sig...
+Finished executing payment_sig.
+
+Puzzle solver time: 2.62030 sec
+Connecting to Bob...
+
+Puzzle solver and solution share time: 2.62040 sec
+
+Total time of Alice: 39.61071 sec
+Received message size: 98 bytes
+Executing puzzle_solution_share...
+Finished executing puzzle_solution_share.
+
+
+Puzzle promise and soluton time: 20.05524 sec
+  ***   user interrupt.  ***   Error in the PARI system. End of program.
+

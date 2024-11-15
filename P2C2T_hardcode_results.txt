@@ -1,0 +1,132 @@
+Connecting to Tumbler...
+
+**sk_s:
+AC60019C77CF2FB7FC752B281563CD6D0E4BB6D910EF5C4F3B7FEB23255A5C83
+**sk_r:
+D5428B52D9145EE5B51CEB5B1E0D382188E428BC79B45C2D034BA956BB84B316
+**sk_h1:
+6921E870D2D2915474F6C34DD68260436769C2EDACDC0FC816DF7E860128C999
+**sk_h2:
+DBC8B40E03E646C69814D43D87D8632AC79031B31793DB58073F2249C11698CF
+Received message size: 56 bytes
+Executing registration_z...
+
+Running time of lhtlp_param_gen by tumbler: 4.97143 sec
+Finished executing registration_z.
+
+Received message size: 60944 bytes
+Executing registration_vtd...
+Finished executing registration_vtd.
+
+Received message size: 159 bytes
+Executing registration_tid...
+Finished executing registration_tid.
+
+Received message size: 92 bytes
+Executing registration_done...
+Finished executing registration_done.
+
+Registration time: 23.63165 sec
+Connecting to Bob...
+
+Registration time plus token share: 23.63176 sec
+Received message size: 538 bytes
+Executing token_share...
+Finished executing token_share.
+
+Connecting to Tumbler...
+
+Received message size: 63832 bytes
+Executing promise_init...
+Finished executing promise_init.
+
+Received message size: 6968 bytes
+Executing promise_com...
+Finished executing promise_com.
+
+Received message size: 154 bytes
+Executing promise_zkdl...
+Finished executing promise_zkdl.
+
+Received message size: 2428 bytes
+Executing promise_decom...
+**pk_2 of bob and tumbler:
+5D164B19634B232C C71FFE2FF521DC80 65CAB3A80B67DF37 56DE72B374398F05
+05A398899B6807F4 8B3B771205B7E79F 0FDA8784D8F4B1FE 379D47A1A3CF1D89
+0000000000000000 0000000000000000 0000000000000000 0000000000000001
+Finished executing promise_decom.
+
+Received message size: 57 bytes
+Executing promise_presig...
+Finished executing promise_presig.
+
+Received message size: 21 bytes
+Executing promise_over...
+Finished executing promise_over.
+
+
+Puzzle promise time: 19.37919 sec
+Connecting to Alice...
+
+Received message size: 4334 bytes
+Executing puzzle_share...
+Finished executing puzzle_share.
+
+Connecting to Tumbler...
+
+Received message size: 26 bytes
+Executing puzzle_share_done...
+Finished executing puzzle_share_done.
+
+
+Puzzle promise and share time: 19.64657 sec
+Received message size: 9718 bytes
+Executing payment_init...
+Finished executing payment_init.
+
+Received message size: 121 bytes
+Executing payment_zkdl...
+Finished executing payment_zkdl.
+
+Received message size: 155 bytes
+Executing payment_decom...
+Finished executing payment_decom.
+
+Received message size: 2293 bytes
+Executing payment_ctx...
+**pk_1 between alice and tumbler:
+07C093C628D71264 F4530F45B3F7CCD3 C1F101DBB23D2F6C 0AF585A0CC4AE66E
+EAF00291249BBED5 A999E7B638FCBD8F 6CF7910F601A1B80 05E670D9D66A816A
+0000000000000000 0000000000000000 0000000000000000 0000000000000001
+Finished executing payment_ctx.
+
+Received message size: 57 bytes
+Executing payment_presig...
+r of 2AS in tumbler.c:
+AACA6E222C31B40BD94719C431523BBAA72D3AFB945E7F54FADEDECB578C1896
+s of 2AS in tumbler.c:
+2C45885CD4E3C76BE7855B21C756D9BCF4751D2FBBA7FF563B0B8AEC9B25847D
+Finished executing payment_presig.
+
+Received message size: 54 bytes
+Executing payment_sig...
+Finished executing payment_sig.
+
+Puzzle solver time: 1.83752 sec
+Connecting to Bob...
+
+Puzzle solver and solution share time: 1.83762 sec
+
+Total time of Alice: 45.11825 sec
+Received message size: 98 bytes
+Executing puzzle_solution_share...
+r of 2AS in bob.c:
+7EE2CBF4B930763D01E417561C250085963C130CBA379B67425A9331B8DB0ABC
+s of 2AS in bob.c:
+3BE57BEBB2176746BE91B70EAF4CA8CD3686ED0016F53424903B9E941D3EC0F3
+Finished executing puzzle_solution_share.
+
+
+Puzzle promise and soluton time: 21.48703 sec
+  ***   user interrupt.  ***   Error in the PARI system. End of program.
+
